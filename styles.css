@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    /* margin: 20px 0 20px 100px; */
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.header ul {
+    /* margin: 20px 100px 20px 0; */
+    margin-left: auto;
+    flex-shrink: 0;
+}
+
+.collapse {
+    width: 150px;
+    flex-shrink: 1;
+}
