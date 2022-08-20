@@ -6,9 +6,10 @@ body {
 .header {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 10px 150px;
+    padding: 10px 0px;
+    gap: 100px;
 }
 
 ul {
@@ -32,15 +33,12 @@ a {
     margin-right: 20px;
 }
 
-.header ul {
-    margin-left: auto;
-}
-
 .hero h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
     margin: 0 20px 0 0;
+
 }
 
 .hero p {
@@ -65,24 +63,27 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
     width: 500px;
+    flex-shrink: 0;
+    height: 250px;
 }
 
 .placeholder {
     color: #F9FAF8;
-    
 }
 
 .hero {
     background-color: #1F2937;
-    padding: 150px 150px;
+    padding: 150px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px;
 }
 
 .hero-text {
-    width: 500px;
+    max-width: 500px;
+    flex-shrink: 0;
 }
 
 .info h2 {
@@ -112,6 +113,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 50px;
+    flex-wrap: wrap;
 }
 
 .info {
@@ -119,7 +121,8 @@ button {
 }
 
 .quote-section {
-    margin: 100px 300px;
+    margin: 100px 10px;
+    max-width: 900px;
 }
 
 .quote {
@@ -151,7 +154,13 @@ button {
     justify-content: space-around;
     gap: 50px;
     padding: 60px 20px;
-    margin: 100px 200px;
+    margin: 100px 10px;
+    width: 1200px;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
 }
 
 .cta h3 {
