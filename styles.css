@@ -85,3 +85,36 @@ button {
 .hero-text {
     width: 500px;
 }
+
+.info h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.info-text {
+    color: #1F2937;
+    font-size: 18px;
+}
+
+.info-image {
+    width: 175px;
+    height: 175px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+
+.info-content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    /* margin: 0 200px; */
+}
+
+.info-text {
+    width: 175px;
+    text-align: center;
+    padding: 10px 0;
+}
