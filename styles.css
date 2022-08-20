@@ -9,7 +9,6 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 150px;
-    
 }
 
 ul {
@@ -97,6 +96,9 @@ button {
 .info-text {
     color: #1F2937;
     font-size: 18px;
+    width: 175px;
+    text-align: center;
+    padding: 10px 0;
 }
 
 .info-image {
@@ -110,11 +112,32 @@ button {
     display: flex;
     justify-content: center;
     gap: 50px;
-    /* margin: 0 200px; */
 }
 
-.info-text {
-    width: 175px;
-    text-align: center;
-    padding: 10px 0;
+.info {
+    margin-bottom: 100px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px 300px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-author {
+    color: #1F2937;
+    font-weight: bold;
+    text-align: right;
+    font-size: 24px;
+}
+
+.quote-contatiner {
+    display: flex;
+    justify-content: center;
 }
